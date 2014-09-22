@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 .section {
-  max-width: 56.25em;
+  max-width: 59.375em;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 40px; }
@@ -19,13 +19,15 @@ h1 {
 address {
   float: right; }
 
-.section-title {
+h2 {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 14.70196%;
-  font-weight: bold; }
-  .section-title:last-child {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0; }
+  h2:last-child {
     margin-right: 0; }
 
 .section-content {
@@ -37,7 +39,7 @@ address {
     margin-right: 0; }
 
 .position {
-  max-width: 56.25em;
+  max-width: 59.375em;
   margin-left: auto;
   margin-right: auto; }
   .position:after {
