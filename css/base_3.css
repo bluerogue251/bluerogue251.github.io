@@ -30,14 +30,26 @@ h2 {
   h2:last-child {
     margin-right: 0; }
 
-h3.project-title {
-  display: inline-block;
+h3 {
   margin-top: 0px;
   margin-bottom: 5px;
   font-weight: normal; }
+  h3 .dates {
+    float: right; }
 
-p {
-  display: inline-block; }
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: normal; }
+
+h4, ul {
+  font-style: italic; }
+
+ul {
+  margin-bottom: 25px; }
+
+.education-detail {
+  font-style: italic; }
 
 .section-content {
   float: left;
@@ -50,33 +62,6 @@ p {
     font-style: italic;
     margin-top: 5px;
     margin-bottom: 25px; }
-
-.position {
-  max-width: 59.375em;
-  margin-left: auto;
-  margin-right: auto; }
-  .position:after {
-    content: "";
-    display: table;
-    clear: both; }
-
-.position-title {
-  font-style: italic;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 82.94039%; }
-  .position-title:last-child {
-    margin-right: 0; }
-
-.dates {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 14.70196%;
-  font-style: normal; }
-  .dates:last-child {
-    margin-right: 0; }
 
 .article-title {
   font-style: italic; }
