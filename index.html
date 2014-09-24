@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="uft-8"/>
-    <link href="css/base_2.css" rel="stylesheet"/>
+    <link href="css/base_3.css" rel="stylesheet"/>
   </head>
   <body>
     <header class="section">
@@ -40,12 +40,48 @@
     <div class="section">
       <h2>PORTFOLIO</h2>
       <div class="section-content">
-        Expense manager
-        <a target="_blank" href="http://expensemanager.teddywidom.com/dashboard/readme">(demo & source code)</a>,
-        Intouchsys
-        <a target="_blank" href="https://www.dropbox.com/s/4evn4thgcrhf2j4/intouchsys_demo.mp4?dl=0">(screencast)</a>,
-        Materialized views
-        <a target="_blank" href="http://github.com/bluerogue251/materialized_views">(source code)</a>
+        <div class="position">
+          <h3 class="project-title">
+            Expense manager
+            <a target="_blank" href="http://expensemanager.teddywidom.com/dashboard/readme">demo</a> /
+            <a target="_blank" href="https://github.com/bluerogue251/expense_manager">source code</a>
+          </h3>
+        </div>
+        <p>
+          A Rails app for tracking company expenses. Interesting aspects
+          include use of the facade pattern to organize data for a complex
+          dashboard, scalable spreadsheet-like searching and sorting, and
+          date-based (rather than id-based) SQL joins.
+        </p>
+        <div class="position">
+          <h3 class="project-title">
+            Intouchsys
+            <a target="_blank" href="https://vimeo.com/107053322">screencast</a>
+          </h3>
+        </div>
+        <p>
+          A Rails app I sold to my old company, InTouch Services. It now
+          underlies nearly every aspect of their operations from
+          client-management, to scheduling services, to invoicing and paying
+          commissions.
+        </p>
+        <div class="position">
+          <h3 class="project-title">
+            Materialized views
+            <a target="_blank" href="http://github.com/bluerogue251/materialized_views">source code</a>,
+          </h3>
+        </div>
+        <p>
+          Extends ActiveRecord::Migration with methods for creating
+          auto-updating materialized views in Postgres. Performs gold standard
+          tests to check if a materialized view is up-to-date with its
+          unmaterialized version.
+        </p>
+        <div class="position">
+          <h3 class="project-title">
+            My <a target="_blank" href="http://github.com/bluerogue251/materialized_views">GitHub</a> profile
+          </h3>
+        </div>
       </div>
     </div>
 

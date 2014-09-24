@@ -32,8 +32,9 @@ h2 {
 
 h3.project-title {
   display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 5px; }
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: normal; }
 
 p {
   display: inline-block; }
@@ -45,6 +46,10 @@ p {
   width: 82.94039%; }
   .section-content:last-child {
     margin-right: 0; }
+  .section-content p {
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 25px; }
 
 .position {
   max-width: 59.375em;
