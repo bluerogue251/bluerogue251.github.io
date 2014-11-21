@@ -393,9 +393,7 @@ header {
   margin-bottom: 50px; }
 
 div.contact-info {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle; }
+  text-align: center; }
 
 .fa-5x {
   margin-right: 20px;
@@ -403,5 +401,10 @@ div.contact-info {
 
 .fa-phone {
   margin-top: 20px; }
+
+.resume {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 150px; }
 
 /*# sourceMappingURL=base_4.css.map */
