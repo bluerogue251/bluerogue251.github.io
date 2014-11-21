@@ -32,54 +32,76 @@
 
         <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab2">Portfolio</a>
         <div id="tab2" class="js-vertical-tab-content vertical-tab-content">
-            <h3>
-              Expense manager
-              <a target="_blank" href="http://expensemanager.teddywidom.com">demo</a> /
-              <a target="_blank" href="https://github.com/bluerogue251/expense_manager">source code</a>
-            </h3>
-            <p>
-              A Rails app for tracking company expenses. Interesting aspects
-              include use of the facade pattern to organize data for a complex
-              dashboard, scalable spreadsheet-like searching and sorting, and
-              date-based (rather than id-based) SQL joins.
-            </p>
-            <h3>
-              Intouchsys
-              <a target="_blank" href="https://vimeo.com/107053322">screencast</a>
-            </h3>
-            <p>
-              A custom Rails app I sold to my old company, InTouch Manufacturing
-              Services Ltd. It now underlies nearly every aspect of their
-              operations including client-management, scheduling services, creating
-              photo-rich PDF inspection reports, invoicing, and calculating commissions.
-            </p>
+          <p>
+            <span>Expense manager</span>
+            A Rails app for tracking company expenses. Interesting aspects
+            include use of the facade pattern to organize data for a complex
+            dashboard, scalable spreadsheet-like searching and sorting, and
+            date-based (rather than id-based) SQL joins.
+            <a class="read-more" target="_blank" href="http://expensemanager.teddywidom.com">demo &#8594;</a> /
+            <a class="read-more" target="_blank" href="https://github.com/bluerogue251/expense_manager">source code &#8594;</a>
 
-            <h3>
+          </p>
+
+          <p>
+            <span>Intouchsys</span>
+            A custom Rails app I sold to my old company, InTouch Manufacturing
+            Services Ltd. It now underlies nearly every aspect of their
+            operations including client-management, scheduling services, creating
+            photo-rich PDF inspection reports, invoicing, and calculating commissions.
+            <a class="read-more" target="_blank" href="https://vimeo.com/107053322">screencast &#8594;</a>
+          </p>
+
+            <span>
               Materialized views
               <a target="_blank" href="http://github.com/bluerogue251/materialized_views">source code</a>
-            </h3>
+            </span>
             <p>
               Extends ActiveRecord::Migration with methods for creating
               auto-updating materialized views in Postgres. Performs gold standard
               tests to check if a materialized view is up-to-date with its
               unmaterialized version.
             </p>
-            <h3>
+            <span>
               My <a target="_blank" href="https://github.com/bluerogue251">GitHub</a> profile
-            </h3>
+            </span>
         </div>
 
         <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab3">Blog</a>
         <div id="tab3" class="js-vertical-tab-content vertical-tab-content">
+          <p class="date">2014-11-19</p>
           <p>
-            <span class="article-title">90 Day Rails</span>. A technical blog about Ruby on Rails.
-            <a target="_blank" href="http://bluerogue251.wordpress.com">bluerogue251.wordpress.com</a>
-            <br>
-            <span class="article-title">An American in Shenzhen</span>. The New York Times Upfront. Spring Edition, 2012
-            <br>
-            <span class="article-title">Methodological Reflections on Typologies for Numerical Notations</span>.
-            Science in Context. V25, 2012 <br>
-            (with Prof. Dirk Schlimm, Department of Philosophy, McGill University)
+            <span>Rails 4.0 to 4.1 Upgrade</span>
+            When updating from Rails 4.0 to 4.1, I ran into two issues. The
+            first was that HABTM associations now seem to
+            require a primary key on the join table. Easy enough to solve:
+            just add a ...
+            <a href="https://bluerogue251.wordpress.com/2014/11/19/rails-4-0-to-4-1-upgrade/" target="_blank" class="read-more">
+              read more &#8594;
+            </a>
+          </p>
+
+          <p class="date">2014-11-12</p>
+          <p>
+            <span>Decoupling from Rails</span>
+            There is a great talk called <em>Decoupling from Rails</em> by the late Jim Weirich.
+
+            This talk is most famous for being taken up by David Heinemeier Hansson as an
+            example of "test induced design damage" during ...
+            <a href="https://bluerogue251.wordpress.com/2014/11/12/decoupling-from-rails/" target="_blank" class="read-more">
+              read more &#8594;
+            </a>
+          </p>
+
+          <p class="date">2014-09-23</p>
+          <p>
+            <span>Materialized View Alternatives</span>
+              A while back I wrote about materialized views in Postgres. My
+              main motivation was making Postgres' full-text search faster, and
+              to be able to filter and sort using indexes when ...
+            <a href="https://bluerogue251.wordpress.com/2014/09/23/materialized-view-alternatives/" target="_blank" class="read-more">
+              read more &#8594;
+            </a>
           </p>
         </div>
 
