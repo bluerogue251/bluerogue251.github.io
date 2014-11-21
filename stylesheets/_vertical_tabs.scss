@@ -38,7 +38,7 @@
       padding: $base-spacing/2 $gutter/2;
 
       &.is-active {
-        color: $base-link-color;
+        color: $hover-link-color;
         background-color: $tab-content-background;
         margin-right: -1px;
       }

@@ -333,7 +333,7 @@ body {
       margin-right: -1px;
       padding: 0.75em 0.809em; }
       .vertical-tabs-container .vertical-tab.is-active {
-        color: #477DCA;
+        color: #2c5999;
         background-color: #f9f9f9;
         margin-right: -1px; }
       .vertical-tabs-container .vertical-tab:hover {
@@ -389,8 +389,8 @@ body {
     clear: both; }
 
 header {
-  margin-top: 30px;
-  margin-bottom: 50px; }
+  margin-top: 6em;
+  margin-bottom: 4em; }
 
 div.contact-info {
   text-align: center; }
